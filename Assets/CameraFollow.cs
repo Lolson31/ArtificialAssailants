@@ -13,5 +13,7 @@ public class CameraFollow : MonoBehaviour
         Vector3 centerPoint = Vector3.Lerp(player1.position, player2.position, 0.5f);
         transform.position = Vector3.Lerp(transform.position, centerPoint, lerpFactor);
         transform.position += new Vector3(0, 0, -10);
+
+
     }
 }
