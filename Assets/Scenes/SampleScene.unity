@@ -565,7 +565,7 @@ PrefabInstance:
     - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1d8193730d231824788b6f74c22f3d9e, type: 3}
+      objectReference: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
     - target: {fileID: 4285251944745835930, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Name
       value: Player2
@@ -576,11 +576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.344265
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.47749677
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalScale.z
@@ -792,12 +792,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_Size.x
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_Size.y
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b1abdfe84c1bc5245840061b2ee9a234, type: 3}
+      objectReference: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
+    - target: {fileID: 4285251944745835929, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835930, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Name
       value: Player1
@@ -816,11 +828,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.33988875
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.49412614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4285251944745835934, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -834,6 +846,14 @@ PrefabInstance:
       propertyPath: player2Hit
       value: 
       objectReference: {fileID: 1315671613}
+    - target: {fileID: 4285251946595773881, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4370238
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285251946595773881, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2671
+      objectReference: {fileID: 0}
     - target: {fileID: 4285251946595773886, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -841,7 +861,11 @@ PrefabInstance:
     - target: {fileID: 4285251946595773886, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b1abdfe84c1bc5245840061b2ee9a234, type: 3}
+      objectReference: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    - target: {fileID: 4285251946595773886, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5964718918014023312, guid: ea64f684b0cc57a479da48a4a0d140fd, type: 3}
       propertyPath: m_Name
       value: Player2
@@ -1069,6 +1093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRender: {fileID: 1884425810}
+  input: 
 --- !u!1 &1505632446
 GameObject:
   m_ObjectHideFlags: 0
