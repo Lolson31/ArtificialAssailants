@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
             
         }
 
-        if (kickCollider.Length > 0 && Time.time - lastKick < 0.5)
+        if (kickCollider.Length > 0 && Time.time - lastKick < 0.05)
         {
             Debug.Log("KIIIIIIIIIIIIIIIIIIIIICK");
             player2Hit.imHit(flipped, ((int)attacks.kick));
